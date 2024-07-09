@@ -14,6 +14,12 @@
   opacity: 0.7;
   font-size: 12px;
 }
+.btn-learn-more {
+  color: rgb(13, 19, 33, 0.7);
+  padding: 7px 14px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+}
 
 header {
   background-image: url(./assets/Hero-bg.png);
@@ -59,4 +65,95 @@ main {
 }
 main section {
   width: 775px;
+}
+
+/* why development  */
+.why-sec {
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px;
+}
+.why-sec-h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.why-sec > p {
+  margin: 15px 0 35px 0;
+
+  text-align: center;
+}
+.layer-head {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 20px;
+}
+.layer-1 {
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 20px 20px 0 20px;
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+/* inspiration  */
+.inspiration {
+  margin-top: 100px;
+}
+
+.ins-sec-h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0;
+}
+.ins-sec-p {
+  text-align: center;
+}
+
+/* cur target  */
+.cur-target {
+  margin: 100px 0;
+}
+
+.cur-skill-div {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.cur-skill-div h2 {
+  font-size: 19px;
+  margin: 12px 0;
+}
+.cur-skill-div p {
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+.cur-skill-div a {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.skill-container-1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 30px;
+}
+.skill-container-2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 30px;
+}
+.skill-container-3 {
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
+  padding: 30px;
 }
