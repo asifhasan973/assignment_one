@@ -157,3 +157,62 @@ main section {
   background: rgba(255, 223, 0, 0.05);
   padding: 30px;
 }
+
+/* i need support  */
+.need-support-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./assets/handshake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 240px;
+  padding: 48px 36px;
+  border-radius: 16px;
+}
+
+.need-support {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 1px solid white; */
+
+  text-align: center;
+  width: 790px;
+  height: 170px;
+}
+
+#input-feild {
+  width: 350px;
+  padding: 7px 15px;
+  border-radius: 6px;
+  font-size: 10px;
+  border: 1px solid #ccc;
+}
+.need-support h2 {
+  font-size: 29px;
+}
+
+.need-support p {
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  font-size: 11px;
+}
+
+.need-support button {
+  background-color: white;
+
+  color: black;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0;
+}
