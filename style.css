@@ -216,3 +216,24 @@ main section {
   border-radius: 5px;
   margin: 20px 0;
 }
+
+/* foooter  */
+footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.03);
+}
+
+footer h3 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-logo a {
+  margin-right: 15px;
+  text-decoration: none;
+}
